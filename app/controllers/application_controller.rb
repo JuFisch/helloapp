@@ -8,6 +8,10 @@ class ApplicationController < ActionController::Base
   def gusty
     render html: "Oh hai, Gusty!"
   end
+
+  def den
+    render html: "Den is awesome!" 
+  end 
 end
 
 
